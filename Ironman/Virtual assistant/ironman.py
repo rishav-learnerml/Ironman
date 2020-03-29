@@ -107,3 +107,11 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("Sorry my friend Rishav bro. I am not able to send this email")
+
+        elif "you can't die right" in query:
+            speak("Ofcourse not!...I'm alive in your hearts for eternity.")
+            print("Ofcourse not!...I'm alive in your hearts for eternity.")
+
+        elif 'done' in query:
+            speak("Hope to help you again sir")
+            exit(0)
